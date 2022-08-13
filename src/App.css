@@ -1,0 +1,33 @@
+body {
+  background-color: #ebebeb;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+main > div {
+  width: 22%;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #777777;
+  border-radius: 5px;
+}
+
+main > div > img {
+  width: 100;
+}
+
+main > div:nth-child(even) {
+  background-color: aliceblue;
+}
+
+main > div:nth-child(odd) {
+  background-color: teal;
+}
+
+main > div:first-child() {
+  background-color: salmon;
+}
